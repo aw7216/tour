@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+/* 가입 동의 */
+
+	#join_body{
+	/* 	background-color: #F5F6F7; */
+	}
+
+	#join {
+		width: 1400px;
+		margin-left: 15%;
+	}
+	
+	#join img {
+  		width: 300px;
+  		height: 90px;
+  		display: flex;
+  		margin: auto;
+  		margin-bottom: 100px;
+  		margin-top: 100px;
+  	}
+	
+	#join #two_scr {
+		width: 650px;
+		margin: auto;
+		margin-bottom: 150px;
+	}
+	
+	#join #box {
+		margin-bottom: 120px;
+		position: relative;
+	}
+	
+	#join #box .agree{
+		font-size: 19px;
+		position: absolute;
+		top: -38px;
+		left: 45px;
+	}
+	
+	#join #box span {
+		color: #7AC7EE;
+	}
+	
+	#join #checkbox {
+		width: 20px;
+		height: 30px;
+	}
+	
+
+	.circle2 {
+		display: inline-block; 
+		width: 25px; 
+		height: 25px;
+		border: 1px solid #888;
+		box-sizing: border-box;
+		border-radius: 30px; 
+		position: absolute; 
+		top: -35px;
+		left: -40px;
+		cursor: pointer;
+		margin-left: 50px;
+		
+  	}
+  
+	 .circle2:after {
+	      content: '\2714'; 
+	      font-size: 30px; color: #888;
+	      position: absolute; top: -14px; left: 0;
+	
+	      opacity: 0; 
+	      transition: 0.2s; 
+	 }
+	
+	  #chk2:checked + .circle2:after { 
+	      opacity: 1; 
+	  }
+	
+	  #chk2 { 
+	      position: absolute; left: -999em;
+	  }
+	  
+	  /**/
+	  
+	 .circle3 {
+		display: inline-block; 
+		width: 25px; 
+		height: 25px;
+		border: 1px solid #888;
+		box-sizing: border-box;
+		border-radius: 30px; 
+		position: absolute; 
+		top: -35px;
+		left: -40px;
+		cursor: pointer;
+		margin-left: 50px;
+  	}
+  
+	  .circle3:after {
+	      content: '\2714'; 
+	      font-size: 30px; color: #888;
+	      position: absolute; top: -14px; left: 0;
+	
+	      opacity: 0; 
+	      transition: 0.2s; 
+	  }
+	
+	  #chk3:checked + .circle3:after { 
+	      opacity: 1; 
+	  }
+	
+	  #chk3 { 
+	      position: absolute; left: -999em;
+	  }
+	  
+	  
+	  /**/
+	  
+	  .circle4 {
+		display: inline-block;
+		width: 25px; 
+		height:25px;
+		border: 1px solid #888;
+		box-sizing: border-box;
+		border-radius: 30px; 
+		position: absolute; 
+		bottom: 98px;
+		right: 675px;
+		cursor: pointer;
+  	}
+  	
+  	#agree_all p {
+  		position: absolute; 
+		bottom: 100px;
+		right: 590px;
+		font-size: 19px;
+  	}
+  
+	  .circle4:after {
+	      content: '\2714'; 
+	      font-size: 30px; color: #888;
+	      position: absolute; top: -14px; left: 0;
+	
+	      opacity: 0; 
+	      transition: 0.2s; 
+	  }
+	
+	  #chk4:checked + .circle4:after { 
+	      opacity: 1; 
+	  }
+	
+	  #chk4 { 
+	      position: absolute; 
+	      left: -999em;
+	  }
+	  
+	  #join #scroll {
+		width: 650px; 
+		height: 180px;
+		background-color: #F4F5F6;
+		padding: 20px;
+		overflow: scroll;
+	  }
+	  
+	  #join #but {
+	  	display: flex;
+	  	margin-left: 20px;
+	  	margin-top: 120px;
+	  }
+	  
+	  #join #button1 {
+	      width: 270px;
+	      height: 70px;
+	      border: none;
+	      border-radius: 300px;
+	      background-color: #BCBCBC;
+	      font-size: 21px;
+	      font-weight: 500;
+	      color: white;
+	      cursor: pointer;
+	      margin-right: 50px;
+	  }
+	  
+	  #join #button2 {
+	      width: 270px;
+	      height: 70px;
+	      border: none;
+	      border-radius: 300px;
+	      background-color: #7AC7EE;
+	      font-size: 21px;
+	      font-weight: 500;
+	      color: white;
+	      cursor: pointer;
+	  }
+	  
+	  
+/* 가입 2 */
+
+
+	#wrap{
+	    width: 980px;
+	    margin: auto;
+	    padding-bottom: 40px;
+	}
+	
+	#join2{
+	    width: 400px;
+	    margin: auto;
+	    text-align: left;
+	    padding-top: 50px;
+	    font-weight: 500;
+	}
+	
+	#join2 h2 {
+	     width: 120px;
+	     font-size: 30px;
+	     margin-bottom: 50px;
+	}
+	
+	#join2 .userInfo input{
+	    width: 400px;
+	    height: 50px;
+	    margin-top: 5px;
+	    margin-bottom: 25px;
+	    cursor: pointer;
+	    background-color: white;
+	    border: 1px solid #ccc;
+	    padding-left : 15px
+	}
+	
+	#join2 .userInfo input:focus{
+	    outline: none;
+	    border: 1px solid green;
+	}
+	
+	#join2 p{
+	    font-weight: 400;
+	    margin-bottom: 10px;
+	}
+	#join2 button{
+		width: 200px;
+		height: 60px;
+		border: none;
+		border-radius: 300px;
+		background-color: #7AC7EE;
+		margin-top: 20px;
+		font-size: 18px;
+		font-weight: 500;
+		color: white;
+		cursor: pointer;
+	}
+	
+	#join2 button:hover{
+      	background-color: #5CBBEA;
+	}
+
+
+/* 로그인 */
+
+
+  #login_wrap {
+      width: 980px;
+      margin: 10% auto 14% auto;
+  }
+  
+  #login_wrap img {
+  		width: 230px;
+  		height: 70px;
+  		display: flex;
+  		margin: auto;
+  		margin-bottom: 50px;
+  }
+  
+  .login_title{ /*로그인*/
+ 	 width: 170px;
+ 	 height: 50px;
+ 	 border-top-left-radius: 20px;
+ 	 border-top-right-radius: 20px;
+ 	 border-bottom: none;
+ 	 line-height: 50px;
+ 	 font-size: 20px;
+ 	 text-align:center;
+ 	 margin-left : 190px;
+ 	 background-color: #f8f8f8;
+ 	 border: 1px solid rgb(199, 198, 198);
+  }
+
+  #login {
+      background-color: #f8f8f8;
+      width: 600px;
+      height: 450px;
+      margin: auto;
+      border: 1px solid rgb(199, 198, 198);
+
+  }
+
+  #login .userInfo label{
+      margin-left: 15%;
+  }
+
+  #login .userInfo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+  }
+
+  #login .userInfo input{
+      width: 400px;
+      height: 60px;
+      border-radius: 300px;
+      margin-top: 5px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+      padding-left : 30px;
+      color: #5CBBEA;
+  }
+
+  #login button{
+      width: 200px;
+      height: 60px;
+      border: none;
+      border-radius: 300px;
+      background-color: #7AC7EE;
+      margin-top: 40px;
+      font-size: 18px;
+      font-weight: 500;
+      color: white;
+      cursor: pointer;
+      margin-left: 32%;
+      
+  }
+
+  #login button:hover{
+      background-color: #5CBBEA;
+  }
+
+  #login #checkbox {
+      width: 15px;
+      height: 15px;
+      border: 2px solid rgb(105, 55, 55);
+      font-size: 10px;
+  }
+
+  .circle {
+      display: inline-block; 
+      width: 20px; height: 20px;
+      border: 1px solid #888;
+      box-sizing: border-box;
+      border-radius: 10px; 
+      position: relative; top: 4px;
+      cursor: pointer;
+      margin-left: 50px;
+  }
+  
+  .circle:after {
+      content: '\2714'; 
+      font-size: 20px; color: #888;
+      position: absolute; top: -14px; left: 0;
+
+      opacity: 0; 
+      transition: 0.2s; 
+  }
+
+  #chk:checked + .circle:after { 
+      opacity: 1; 
+  }
+
+  #chk { 
+      position: absolute; left: -999em;
+  }

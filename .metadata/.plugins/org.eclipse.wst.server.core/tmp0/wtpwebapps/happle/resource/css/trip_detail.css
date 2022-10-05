@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	@font-face {
+	    font-family: 'GmarketSansMedium';
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	#trip .t_title {
+		margin: 100px 0 120px 0;
+		width: 1800px;
+	}
+	
+	#trip .t_title p{
+		font-family: 'GmarketSansMedium';
+		font-size: 42px;
+		margin-left: 170px;
+		background-color: #C1E8F7;
+		width: 140px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+    #trip .slick-prev {
+        position: absolute;
+    	left: -100px;
+    }
+
+    #trip .slick-next {
+        position: absolute;
+        right: 400px;
+        display: none;
+    }
+    
+    #trip .slick-prev:before{
+    	font-size: 50px;
+    	color: gray;
+    }
+    
+    #trip .slick-next:before{
+    	font-size: 50px;
+    	color: gray;
+    }
+    
+    #trip .t_img {
+        margin-left: 25%;
+    }
+  
+    #trip .slick-dots {
+    	width: 900px;
+    	height: 0px;
+    	margin-top: 50px;
+    }
+
+    #trip .t_text {
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    #trip .t_text p {
+    	font-size: 23px;
+    	font-family: 'GmarketSansLight';
+    	margin-bottom:20px;
+    }
+    
+    #trip .t_text span {
+        font-family: 'GmarketSansLight';
+    	background-color: #C1E8F7;
+    }
+
+				/* 지도부분 */
+				
+	#trip .map {
+		display:flex;
+		margin-bottom: 200px;
+		margin-top: 80px;
+		justify-content: center;
+	}
+	
+	#trip .m_info {
+		margin-left: 100px;
+		padding-top: 150px;
+		font-size: 20px;
+	}
+	
+	#trip .m_info p {
+		margin-bottom: 10px;
+		font-family: 'GmarketSansLight';
+	}
+	
+	#trip .m_name {
+		font-size: 20px;
+		font-weight: 900; 
+	}
+	
+	#trip .back {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 200px;
+	}
+		
+	#trip .back a {
+		text-decoration: none;
+	}
+	
+	#trip .go_back {
+		width: 200px;
+		height: 50px;
+		line-height: 50px;
+		border: 2px solid #555;
+		color: #555;
+		text-align: center;
+		font-family: 'GmarketSansMedium';
+		font-size: 24px;
+	}
+	
+

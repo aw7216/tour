@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:15:34:25 +0900] "GET /happle/main/movie.ogg HTTP/1.1" 404 836
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:15:34:25 +0900] "GET /happle/main/img/main_poster.mp4 HTTP/1.1" 206 1
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:15:34:25 +0900] "GET /favicon.ico HTTP/1.1" 404 818

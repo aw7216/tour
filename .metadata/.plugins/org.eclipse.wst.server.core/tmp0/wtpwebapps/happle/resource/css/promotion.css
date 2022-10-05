@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#hap {
+	position: relative;
+	font-size: 0;
+}
+
+
+
+
+#hap #middle .happy {
+	background-color: pink;
+	height: 30px;
+	line-height: 5px;
+	font-size: 40px;
+	position: absolute;
+	top: 680px;
+	left: 300px;
+}
+
+#hap #middle .place {
+	font-size: 30px;
+	position: absolute;
+	top: 650px;
+	right: 400px;
+}
+
+
+
+#hap .pinkLine {
+		width: 1150px;
+		height: 1500px;
+}
+
+#hap #thumbnail {
+		position: absolute;
+		right: 200px;
+		bottom:350px;
+}

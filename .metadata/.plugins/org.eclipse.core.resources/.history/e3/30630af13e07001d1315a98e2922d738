@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	img {
+		width: 250px;
+		height: 250px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width:100%;
+	}
+	
+	header a {	
+		list-style: none;
+		color: black;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<img src="happle.png" alt="로고">
+		
+		<ul>
+			<li>
+				<a href="">HAPPLE</a>
+			</li>
+			<li>
+				<a href="">관광지안내</a>
+			</li>	
+			<li>
+				<a href="">야경투어</a>
+			</li>	
+			<li>
+				<a href="">프로모션</a>
+			</li>			
+			
+		</ul>
+	</header>
+</body>
+</html>

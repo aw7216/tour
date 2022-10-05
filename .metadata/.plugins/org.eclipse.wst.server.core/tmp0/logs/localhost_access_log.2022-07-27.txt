@@ -1,0 +1,6 @@
+127.0.0.1 - - [27/Jul/2022:21:36:11 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:21:36:15 +0900] "GET /popo/login/join.jsp HTTP/1.1" 200 17171
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:21:36:15 +0900] "GET /popo/resource/css/join_login.css HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:21:36:15 +0900] "GET /popo/resource/css/main.css HTTP/1.1" 200 6048
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:21:36:15 +0900] "GET /popo/main/img/happle.png HTTP/1.1" 200 58663
+0:0:0:0:0:0:0:1 - - [27/Jul/2022:21:36:16 +0900] "GET /favicon.ico HTTP/1.1" 404 818

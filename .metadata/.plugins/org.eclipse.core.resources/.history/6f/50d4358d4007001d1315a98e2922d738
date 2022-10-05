@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+
+	* {
+		margin :0;
+		padding:0;
+		box-sizing:border-box;
+	}
+
+	#happle_logo img {
+		width: 250px;
+		height: 250px;
+
+	}
+	
+	#happle_logo {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	
+	header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width:100%;
+	}
+	
+	header ul {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		list-style: none;
+	}
+	
+	header a {	
+		margin-left : 100px;
+		color: black;
+		text-decoration: none;
+		font-weight: 600;
+	}
+	
+</style>
+</head>
+<body>
+	<header>
+		<div id="happle_logo">
+			<img src="happle.png" alt="로고">
+		</div>
+		
+		<ul>
+			<li>
+				<a href="">HAPPLE</a>
+			</li>
+			<li>
+				<a href="">관광지안내</a>
+			</li>	
+			<li>
+				<a href="">야경투어</a>
+			</li>	
+			<li>
+				<a href="">프로모션</a>
+			</li>			
+			
+		</ul>
+	</header>
+</body>
+</html>

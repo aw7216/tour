@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+ <!-- font-family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+ <!-- css연결 -->
+ 	<link href="../resource/css/main.css" rel="stylesheet">
+ 	
+	<div id="h_wrap">
+		<header>
+			<div id="hp_logo">
+				<a href="../main/main.jsp"><img src="../main/img/happle.png" alt="로고"></a>
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li>
+					<a id="a" href="../sub/happle.jsp">HAPPLE 소개</a><br>
+<!-- 					<img id="one" alt="" src="../main/img/pado_1.png"> -->
+				</li>
+				<li>
+					<a href="../sub/trip.jsp">여행지안내</a>
+<!-- 					<img alt="" src="../main/img/pado_2.png"> -->
+				</li>	
+				<li>
+					<a href="../sub/tour.jsp">야경투어</a>
+<!-- 					<img alt="" src="../main/img/pado_3.png">
+ -->				</li>	
+				<li>
+					<a href="../sub/promotion.jsp">프로모션</a>
+<!-- 					<img alt="" src="../main/img/pado_3.png">
+ -->				</li>			
+			</ul>
+			
+			<div id="member">
+				<a href="../login/login.jsp"><p>로그인</p></a>
+				<a href="../login/join.jsp"><p>회원가입</p></a>
+			</div>
+
+		</nav>	
+	</div>
+</body>
+</html>
